@@ -58,9 +58,22 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; }
-
+.hack{
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffbd39;
+}
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+.yellow{
+  text-decoration: none;
+  
+  
+}
+.yellow:hover {
+  text-decoration: none; /* Maintain no underline when hovering */
+  cursor: default; /* Keep the default cursor */
+}
 
 hr {
   -webkit-box-sizing: content-box;
